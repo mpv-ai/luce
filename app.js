@@ -16,11 +16,13 @@ function matches(l) {
   if (f === "saved" && !saved.has(l.id)) return false;
   if (f === "ready" && l.status !== "ready") return false;
   if (f === "new-build" && l.status !== "new-build") return false;
-  if (f === "lakes" && !["Lake Como", "Lake Garda"].includes(l.area)) return false;
-  if (f === "islands" && !["Sardinia", "Sicily"].includes(l.region)) return false;
-  if (["Puglia", "Tuscany", "Lombardy", "Liguria", "Lazio"].includes(f) && l.region !== f) return false;
+  if (f === "Italy" && l.country !== "Italy") return false;
+  if (f === "Menorca" && l.region !== "Menorca") return false;
+  if (f === "lakes" && !["Lake Como", "Lake Garda", "Lake Iseo"].includes(l.area)) return false;
+  if (f === "islands" && !["Sardinia", "Sicily", "Menorca"].includes(l.region)) return false;
+  if (["Puglia", "Tuscany", "Lombardy", "Liguria", "Lazio", "Sicily"].includes(f) && l.region !== f) return false;
   if (state.q) {
-    const blob = [l.name, l.headline, l.location, l.region, l.area, l.note, l.why].join(" ").toLowerCase();
+    const blob = [l.name, l.headline, l.location, l.region, l.area, l.country, l.note, l.why].join(" ").toLowerCase();
     if (!blob.includes(state.q.toLowerCase())) return false;
   }
   return true;
@@ -57,7 +59,7 @@ function card(l) {
     <span class="badge ${l.status}">${statusLabel(l.status)}</span>
     <button class="heart ${heart}" data-save="${l.id}" aria-label="Save">♥</button>
     <div class="body">
-      <div class="where">${l.area} · ${l.region}</div>
+      <div class="where">${l.country === "Spain" ? "Menorca" : l.area} · ${l.country === "Spain" ? "Spain" : l.region}</div>
       <h2>${l.name}</h2>
       <div class="sub">${l.headline}</div>
       <div class="stats">${stats}</div>

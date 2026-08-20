@@ -1,8 +1,8 @@
 {
   "title": "Luce",
-  "tagline": "Italy, design-forward, at or under €1.2M",
-  "updated": "2026-08-20T08:10:00-04:00",
-  "updatedLabel": "20 Aug 2026, 8:10 AM ET",
+  "tagline": "Italy and Menorca, design-forward, at or under €1.2M",
+  "updated": "2026-08-20T17:05:00-04:00",
+  "updatedLabel": "20 Aug 2026, 5:05 PM ET",
   "budget": 1200000,
   "currency": "EUR",
   "note": "Verified asking prices from agency pages. Confirm availability before you travel or offer.",
@@ -28,7 +28,8 @@
       "photo": "photos/corten.jpg",
       "why": "New 2024 architecture in stone and corten, with a 30 sqm infinity pool aimed at the Pescoluse horizon.",
       "note": "Smallest house on the board. One bedroom. Strongest design per euro.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "morsasco",
@@ -51,7 +52,8 @@
       "photo": "photos/morsasco.jpg",
       "why": "Multi-storey quadruple-glazed glass façade and a sculptural iron stair. Architecture, not a rustico.",
       "note": "Huge house and land for the price. Pool and some interiors still to finish.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "foligno",
@@ -74,7 +76,8 @@
       "photo": "photos/foligno.jpg",
       "why": "Purpose-built contemporary, full-height glass to the garden, A4 fabric, full home automation.",
       "note": "Confirm the live asking price. It has been syndicated at different figures.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "mari",
@@ -97,7 +100,8 @@
       "photo": "photos/mari.webp",
       "why": "Clean contemporary volumes, floor-to-ceiling sliders, scenic infinity pool about 600 m from the sea.",
       "note": "Still finishing. Some photos are project imagery. Confirm what €650k includes.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "gravedona",
@@ -120,7 +124,8 @@
       "photo": "photos/gravedona.jpg",
       "why": "Floor-to-ceiling glass, exposed concrete, quartz-resin floors, gold steel. Each unit has its own pool.",
       "note": "Semi-detached, not standalone. Interiors still customisable. New-build VAT may apply.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "garda",
@@ -143,7 +148,8 @@
       "photo": "photos/garda.jpg",
       "why": "Tailor-made A4 NZEB villa with triple glazing, underfloor heat/cool, and a private pool in a gated vineyard setting.",
       "note": "Off-plan in a multi-villa resort. Photos include renders.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "aura",
@@ -166,7 +172,8 @@
       "photo": "photos/aura.jpg",
       "why": "Finished contemporary villa on 1.15 hectares, anti-seismic, open living to the view, a few minutes from Noto and the Vendicari coast.",
       "note": "No pool in the listing. Sea view and a lot of land at €700k.",
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "country": "Italy"
     },
     {
       "id": "colico",
@@ -189,7 +196,8 @@
       "photo": "photos/colico.jpg",
       "why": "Flat roof garden, large lake glass, A+++ heat pump, underfloor heat, ceiling cooling.",
       "note": "Detached, unlike the Gravedona pair. New-build VAT may apply.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "diano",
@@ -212,7 +220,8 @@
       "photo": "photos/diano.webp",
       "why": "Industrial detailing, sculptural concrete spiral stair, floor-to-ceiling glass, 14.4 kW PV plus battery.",
       "note": "No pool. Compensation is the architecture, olives, and the terrace.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "ostuni-trullo",
@@ -235,7 +244,8 @@
       "photo": "photos/ostuni-trullo.jpg",
       "why": "Recent contemporary volume plus an independent restored trullo, pool between the two, resin floors, underfloor heat, energy class A.",
       "note": "Guest house is the trullo. Works as a home or a small rental.",
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "country": "Italy"
     },
     {
       "id": "serena",
@@ -258,7 +268,8 @@
       "photo": "photos/serena.jpg",
       "why": "Vaulted contemporary plan, rooftop terrace, Starlink, and an infinity pool on a hectare of land.",
       "note": "Different house from the Premier Ostuni listing already on the board.",
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "country": "Italy"
     },
     {
       "id": "villav",
@@ -281,7 +292,56 @@
       "photo": "photos/villav.jpg",
       "why": "Explicitly architect-designed contemporary villa, A4, PV, landscaped outdoor kitchen and fire pit.",
       "note": "One of the best land-to-price ratios on the board.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
+    },
+    {
+      "id": "sa-caleta",
+      "name": "Sa Caleta house",
+      "headline": "Sea-view house with pool and a guest house near Ciutadella",
+      "price": 885000,
+      "location": "Between Sa Caleta and Cala Santandria",
+      "region": "Menorca",
+      "area": "Ciutadella",
+      "country": "Spain",
+      "sqm": 280,
+      "beds": 5,
+      "baths": 4,
+      "land": 1100,
+      "pool": "Private pool",
+      "status": "ready",
+      "year": "Existing",
+      "agency": "Engel & Völkers Ciutadella",
+      "ref": null,
+      "url": "https://www.engelvoelkers.com/es/en/exposes/8c36ed7a-c744-508f-a15b-2730d2bff115",
+      "photo": "photos/sa-caleta.jpg",
+      "why": "Quiet plot close to Ciutadella, sea-view terrace, garden pool, and a guest house with outdoor kitchen.",
+      "note": "More family house than new architecture.",
+      "added": "2026-08-20"
+    },
+    {
+      "id": "cala-llonga",
+      "name": "Cala Llonga villa",
+      "headline": "2022 art-deco house with an infinity pool over Mahón harbour",
+      "price": 890000,
+      "location": "Cala Llonga, Mahón",
+      "region": "Menorca",
+      "area": "Mahón",
+      "country": "Spain",
+      "sqm": 150,
+      "beds": 3,
+      "baths": 3,
+      "land": 628,
+      "pool": "Infinity pool",
+      "status": "ready",
+      "year": "2022",
+      "agency": "Engel & Völkers Mahón",
+      "ref": "W-02Q9ZO",
+      "url": "https://www.engelvoelkers.com/es/en/exposes/7df037e2-690e-55ad-96f4-213e8adf5661",
+      "photo": "photos/cala-llonga.jpg",
+      "why": "Recently finished hillside villa with solar, harbour views, and an infinity terrace over Port Mahón.",
+      "note": "Strongest modern design on this first Menorca pass.",
+      "added": "2026-08-20"
     },
     {
       "id": "niura",
@@ -304,7 +364,8 @@
       "photo": "photos/niura.webp",
       "why": "Recent architecture on a hectare above Noto, with PV and a pool finished last year.",
       "note": "Same Sicily pocket as Avola, different house. Compact interior.",
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "country": "Italy"
     },
     {
       "id": "itria",
@@ -327,7 +388,8 @@
       "photo": "photos/itria.jpg",
       "why": "Finished 2024 contemporary: large glass, custom joinery, home automation, dual heated pools.",
       "note": "Strongest turnkey design-luxury buy in this sweep.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "zogno",
@@ -350,7 +412,8 @@
       "photo": "photos/zogno.jpg",
       "why": "Finished 2023 house with A4 fabric, PV plus battery, custom furniture, and a salt pool.",
       "note": "Only two dedicated bedrooms. Commercial sqm includes a large garage.",
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "country": "Italy"
     },
     {
       "id": "alghero",
@@ -373,7 +436,8 @@
       "photo": "photos/alghero.webp",
       "why": "Five en-suite bedrooms, garden pool, and an independent guest house a few minutes from Alghero.",
       "note": "Different coast from Villa Mari in San Teodoro. Plot size is not published.",
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "country": "Italy"
     },
     {
       "id": "ostuni",
@@ -396,7 +460,8 @@
       "photo": "photos/ostuni.jpg",
       "why": "Rural fabric recast with contemporary tech: 6 kW PV, batteries, Starlink, overflow pool as the outdoor room.",
       "note": "More quiet luxury than showpiece architecture.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "anima",
@@ -419,7 +484,32 @@
       "photo": "photos/anima.jpg",
       "why": "Ground-floor contemporary plan, two verandas, home automation, 15 minutes from Brindisi airport.",
       "note": "Only two bedrooms. Very close to town and the reserve beaches.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
+    },
+    {
+      "id": "ciutadella-beach",
+      "name": "Ciutadella beach villa",
+      "headline": "Mediterranean villa a few metres from the beach, walking to town",
+      "price": 955000,
+      "location": "Ciutadella",
+      "region": "Menorca",
+      "area": "Ciutadella",
+      "country": "Spain",
+      "sqm": 243,
+      "beds": 5,
+      "baths": 3,
+      "land": 405,
+      "pool": "Private pool",
+      "status": "ready",
+      "year": "2007",
+      "agency": "Engel & Völkers Ciutadella",
+      "ref": "W-02XKU5",
+      "url": "https://www.engelvoelkers.com/es/en/exposes/d9e5e0b1-ba7c-5216-9192-618ffdcc7584",
+      "photo": "photos/ciutadella-beach.jpg",
+      "why": "Three-level house with terrace pool, heat-pump AC, and the beach a short walk from Ciutadella.",
+      "note": "2007 build, recently updated systems.",
+      "added": "2026-08-20"
     },
     {
       "id": "anzio",
@@ -442,7 +532,32 @@
       "photo": "photos/anzio.jpg",
       "why": "Purpose-designed 2020 house: rounded sail volumes, wave stair, full-height glass, full home automation.",
       "note": "About an hour from Rome. Pool is an approved project, not in the ground.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
+    },
+    {
+      "id": "alaior",
+      "name": "La Argentina, Alaior",
+      "headline": "Big Mediterranean family house with pool on 3,000 sqm",
+      "price": 980000,
+      "location": "La Argentina, Alaior",
+      "region": "Menorca",
+      "area": "Alaior",
+      "country": "Spain",
+      "sqm": 552,
+      "beds": 5,
+      "baths": 3,
+      "land": 3032,
+      "pool": "Private pool",
+      "status": "ready",
+      "year": "1999",
+      "agency": "Engel & Völkers Mahón",
+      "ref": "W-048PSR",
+      "url": "https://www.engelvoelkers.com/es/es/exposes/93a1256b-be25-570e-89c0-c4e04e44e458",
+      "photo": "photos/alaior.jpg",
+      "why": "Space and land: 552 sqm, four-car garage, quiet cul-de-sac, pool in a flowered garden.",
+      "note": "1999 Mediterranean, not new architecture. Energy class F.",
+      "added": "2026-08-20"
     },
     {
       "id": "iseo",
@@ -465,7 +580,8 @@
       "photo": "photos/iseo.jpg",
       "why": "Move-in ready lakeside house with floor-to-ceiling glass, home automation, PV, and furnishings included. A different lake from Como and Garda.",
       "note": "Energy class A+. Do not confuse with a nearby new-build over €1.2M.",
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "country": "Italy"
     },
     {
       "id": "avola",
@@ -488,7 +604,8 @@
       "photo": "photos/avola.jpg",
       "why": "Single-storey 2026 house: Modica stone, Vietri ceramics, flush doors, black infinity pool.",
       "note": "At the cap. Extra unused building volume on the land.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "marino",
@@ -511,7 +628,8 @@
       "photo": "photos/marino.jpg",
       "why": "Full 2023 reconstruction: herringbone oak, panoramic glass, winter garden, gym, views toward Rome.",
       "note": "About 9 km from Rome’s GRA. Biggest interior on the board.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     },
     {
       "id": "artemisia",
@@ -534,7 +652,8 @@
       "photo": "photos/artemisia.jpg",
       "why": "Full luxury package: park, pool, guest annexe, frescoes, fitness room. Pisa 35 km.",
       "note": "Restored farmhouse luxury, not new architecture. Tuscany contemporary under €1.2M is scarce.",
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "country": "Italy"
     }
   ]
 }
