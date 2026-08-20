@@ -79,7 +79,9 @@ function openDrawer(id) {
     ? `<div class="photo" style="background-image:url('${l.photo}')"></div>`
     : `<div class="photo none">${l.region}</div>`;
   $("#drawer").innerHTML = `
-    <button class="close" id="close">✕</button>
+    <div class="close-bar">
+      <button type="button" class="close" id="close" aria-label="Close">✕</button>
+    </div>
     ${photo}
     <div class="drawer-inner">
       <div class="where">${l.location}</div>
@@ -107,6 +109,11 @@ function closeDrawer() {
 }
 
 document.addEventListener("click", (e) => {
+  if (e.target.closest("#close") || e.target.id === "shade") {
+    e.preventDefault();
+    closeDrawer();
+    return;
+  }
   const save = e.target.closest("[data-save]");
   if (save) {
     e.stopPropagation();
@@ -117,7 +124,6 @@ document.addEventListener("click", (e) => {
   }
   const cardEl = e.target.closest(".card");
   if (cardEl) openDrawer(cardEl.dataset.id);
-  if (e.target.id === "close" || e.target.id === "shade") closeDrawer();
   const chip = e.target.closest(".chip");
   if (chip) {
     state.filter = chip.dataset.filter;
