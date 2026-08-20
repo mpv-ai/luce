@@ -18,7 +18,7 @@ function matches(l) {
   if (f === "new-build" && l.status !== "new-build") return false;
   if (f === "Italy" && l.country !== "Italy") return false;
   if (f === "Menorca" && l.region !== "Menorca") return false;
-  if (f === "lakes" && !["Lake Como", "Lake Garda", "Lake Iseo"].includes(l.area)) return false;
+  if (f === "lakes" && !["Lake Como", "Lake Garda", "Lake Iseo", "Lake Trasimeno"].includes(l.area)) return false;
   if (f === "islands" && !["Sardinia", "Sicily", "Menorca"].includes(l.region)) return false;
   if (["Puglia", "Tuscany", "Lombardy", "Liguria", "Lazio", "Sicily"].includes(f) && l.region !== f) return false;
   if (state.q) {
