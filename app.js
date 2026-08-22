@@ -19,9 +19,9 @@ function matches(l) {
   if (f === "Italy" && l.country !== "Italy") return false;
   if (f === "Menorca" && l.region !== "Menorca") return false;
   if (f === "Mallorca" && l.region !== "Mallorca") return false;
-  if (f === "lakes" && !["Lake Como", "Lake Garda", "Lake Iseo", "Lake Trasimeno"].includes(l.area)) return false;
+  if (f === "lakes" && !["Lake Como", "Lake Garda", "Lake Iseo", "Lake Trasimeno", "Lake Maggiore"].includes(l.area)) return false;
   if (f === "islands" && !["Sardinia", "Sicily", "Menorca", "Mallorca"].includes(l.region)) return false;
-  if (["Puglia", "Tuscany", "Lombardy", "Liguria", "Lazio", "Sicily"].includes(f) && l.region !== f) return false;
+  if (["Puglia", "Tuscany", "Veneto", "Lombardy", "Liguria", "Lazio", "Sicily"].includes(f) && l.region !== f) return false;
   if (state.q) {
     const blob = [l.name, l.headline, l.location, l.region, l.area, l.country, l.note, l.why].join(" ").toLowerCase();
     if (!blob.includes(state.q.toLowerCase())) return false;
