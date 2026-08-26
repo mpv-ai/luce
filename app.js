@@ -14,6 +14,7 @@ const state = { filter: "all", q: "", sort: "price" };
 function matches(l) {
   const f = state.filter;
   if (f === "saved" && !saved.has(l.id)) return false;
+  if (f === "bargain" && !l.bargain) return false;
   if (f === "ready" && l.status !== "ready") return false;
   if (f === "new-build" && l.status !== "new-build") return false;
   if (f === "Italy" && l.country !== "Italy") return false;
@@ -57,7 +58,7 @@ function card(l) {
   ].filter(Boolean).map(s => `<span class="stat">${s}</span>`).join("");
   return `<article class="card" data-id="${l.id}">
     ${photo}
-    <span class="badge ${l.status}">${statusLabel(l.status)}</span>
+    <span class="badge ${l.bargain ? "bargain" : l.status}">${l.bargain ? "Bargain" : statusLabel(l.status)}</span>
     <button class="heart ${heart}" data-save="${l.id}" aria-label="Save">♥</button>
     <div class="body">
       <div class="where">${l.country === "Spain" ? l.region : l.area} · ${l.country === "Spain" ? "Spain" : l.region}</div>

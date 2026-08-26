@@ -87,6 +87,7 @@ select { appearance: none; padding-right: 28px; cursor: pointer; }
 .badge.ready { color: var(--ready); }
 .badge.new-build { color: var(--new); }
 .badge.incomplete { color: var(--warn); }
+.badge.bargain { color: var(--bronze); }
 .heart {
   right: 12px; border: 0; background: rgba(14,13,11,.62); color: var(--ink);
   cursor: pointer; width: 34px; height: 34px; padding: 0; display: grid; place-items: center;
