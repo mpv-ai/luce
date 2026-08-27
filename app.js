@@ -101,7 +101,7 @@ function openDrawer(id) {
         <div><dt>Agency</dt><dd>${l.agency}${l.ref ? " · " + l.ref : ""}</dd></div>
         <div><dt>Added</dt><dd>${l.added}</dd></div>
       </dl>
-      <a class="cta" href="${l.url}" target="_blank" rel="noopener">Open the listing</a>
+      <a class="cta" href="./${l.id}.html" rel="noopener">Open the listing</a>
     </div>`;
   $("#drawer").classList.add("on");
   $("#shade").classList.add("on");
