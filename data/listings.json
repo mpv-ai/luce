@@ -1,8 +1,8 @@
 {
   "title": "Luce",
   "tagline": "Italy, Menorca and Mallorca. Character, cozy design, and bargains at or under €1.2M",
-  "updated": "2026-09-27T08:28:01-04:00",
-  "updatedLabel": "27 Sep 2026, 8:28 AM ET",
+  "updated": "2026-09-28T08:32:41-04:00",
+  "updatedLabel": "28 Sep 2026, 8:32 AM ET",
   "budget": 1200000,
   "currency": "EUR",
   "note": "Verified asking prices from agency pages. Confirm availability before you travel or offer.",
@@ -1593,8 +1593,8 @@
     {
       "id": "cap-artrutx-37001",
       "name": "Cap d’Artrutx renovated menorquina villa with private pool and sea-view terrace",
-      "headline": "Fully renovated Cap d’Artrutx single-storey villa with private pool, BBQ and sea views from the terrace — €975k",
-      "price": 975000,
+      "headline": "Fully renovated Cap d’Artrutx single-storey villa with private pool, BBQ and sea views from the terrace — €870k",
+      "price": 870000,
       "bargain": false,
       "beds": 3,
       "baths": 2,
@@ -5168,8 +5168,8 @@
     {
       "id": "felanitx-porch",
       "name": "Felanitx porch-pool farmhouse",
-      "headline": "193 m² farmhouse, fireplace, large porch to private pool on 2,848 m² — €480k",
-      "price": 480000,
+      "headline": "193 m² farmhouse, fireplace, large porch to private pool on 2,848 m² — €450k",
+      "price": 450000,
       "location": "Felanitx countryside",
       "region": "Mallorca",
       "area": "Southeast Mallorca (interior)",
